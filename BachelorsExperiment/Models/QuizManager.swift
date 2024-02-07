@@ -39,7 +39,7 @@ class QuizResultsManager: ObservableObject {
             if FileManager.default.fileExists(atPath: filePath.path) {
                 if let fileHandle = try? FileHandle(forWritingTo: filePath) {
                     fileHandle.seekToEndOfFile()
-                    fileHandle.write("\n\(jsonString)".data(using: .utf8)!)
+                    fileHandle.write("\n\n\(jsonString)".data(using: .utf8)!)
                     fileHandle.closeFile()
                 }
             } else {

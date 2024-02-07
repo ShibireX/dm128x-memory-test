@@ -16,6 +16,20 @@
 		DAC006AE2B7396DA00A1D316 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC006AD2B7396DA00A1D316 /* QuizManager.swift */; };
 		DAC006B02B73997A00A1D316 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC006AF2B73997A00A1D316 /* EndView.swift */; };
 		DAC006B22B73B02600A1D316 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC006B12B73B02600A1D316 /* SetupView.swift */; };
+		DAC006B42B73C64900A1D316 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC006B32B73C64900A1D316 /* AudioPlayerManager.swift */; };
+		DAC006CB2B73C73600A1D316 /* english.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006BF2B73C73600A1D316 /* english.mp3 */; };
+		DAC006D92B73D0BA00A1D316 /* portuguese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006CD2B73D0BA00A1D316 /* portuguese.mp3 */; };
+		DAC006DA2B73D0BA00A1D316 /* spanish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006CE2B73D0BA00A1D316 /* spanish.mp3 */; };
+		DAC006DB2B73D0BA00A1D316 /* english.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006CF2B73D0BA00A1D316 /* english.mp3 */; };
+		DAC006DC2B73D0BA00A1D316 /* swedish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D02B73D0BA00A1D316 /* swedish.mp3 */; };
+		DAC006DD2B73D0BA00A1D316 /* german.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D12B73D0BA00A1D316 /* german.mp3 */; };
+		DAC006DE2B73D0BA00A1D316 /* french.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D22B73D0BA00A1D316 /* french.mp3 */; };
+		DAC006DF2B73D0BA00A1D316 /* instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D32B73D0BA00A1D316 /* instrumental.mp3 */; };
+		DAC006E02B73D0BA00A1D316 /* chinese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D42B73D0BA00A1D316 /* chinese.mp3 */; };
+		DAC006E12B73D0BA00A1D316 /* korean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D52B73D0BA00A1D316 /* korean.mp3 */; };
+		DAC006E22B73D0BA00A1D316 /* japanese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D62B73D0BA00A1D316 /* japanese.mp3 */; };
+		DAC006E32B73D0BA00A1D316 /* italian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D72B73D0BA00A1D316 /* italian.mp3 */; };
+		DAC006E42B73D0BA00A1D316 /* hindi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D82B73D0BA00A1D316 /* hindi.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +44,20 @@
 		DAC006AD2B7396DA00A1D316 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		DAC006AF2B73997A00A1D316 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
 		DAC006B12B73B02600A1D316 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		DAC006B32B73C64900A1D316 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		DAC006BF2B73C73600A1D316 /* english.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = english.mp3; path = ../../../../Downloads/english.mp3; sourceTree = "<group>"; };
+		DAC006CD2B73D0BA00A1D316 /* portuguese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = portuguese.mp3; path = ../../../../Downloads/portuguese.mp3; sourceTree = "<group>"; };
+		DAC006CE2B73D0BA00A1D316 /* spanish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spanish.mp3; path = ../../../../Downloads/spanish.mp3; sourceTree = "<group>"; };
+		DAC006CF2B73D0BA00A1D316 /* english.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = english.mp3; path = ../../../../Downloads/english.mp3; sourceTree = "<group>"; };
+		DAC006D02B73D0BA00A1D316 /* swedish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = swedish.mp3; path = ../../../../Downloads/swedish.mp3; sourceTree = "<group>"; };
+		DAC006D12B73D0BA00A1D316 /* german.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = german.mp3; path = ../../../../Downloads/german.mp3; sourceTree = "<group>"; };
+		DAC006D22B73D0BA00A1D316 /* french.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = french.mp3; path = ../../../../Downloads/french.mp3; sourceTree = "<group>"; };
+		DAC006D32B73D0BA00A1D316 /* instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = instrumental.mp3; path = ../../../../Downloads/instrumental.mp3; sourceTree = "<group>"; };
+		DAC006D42B73D0BA00A1D316 /* chinese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chinese.mp3; path = ../../../../Downloads/chinese.mp3; sourceTree = "<group>"; };
+		DAC006D52B73D0BA00A1D316 /* korean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = korean.mp3; path = ../../../../Downloads/korean.mp3; sourceTree = "<group>"; };
+		DAC006D62B73D0BA00A1D316 /* japanese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = japanese.mp3; path = ../../../../Downloads/japanese.mp3; sourceTree = "<group>"; };
+		DAC006D72B73D0BA00A1D316 /* italian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = italian.mp3; path = ../../../../Downloads/italian.mp3; sourceTree = "<group>"; };
+		DAC006D82B73D0BA00A1D316 /* hindi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hindi.mp3; path = ../../../../Downloads/hindi.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +90,19 @@
 		DAC006972B73812E00A1D316 /* BachelorsExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				DAC006D42B73D0BA00A1D316 /* chinese.mp3 */,
+				DAC006BF2B73C73600A1D316 /* english.mp3 */,
+				DAC006CF2B73D0BA00A1D316 /* english.mp3 */,
+				DAC006D22B73D0BA00A1D316 /* french.mp3 */,
+				DAC006D12B73D0BA00A1D316 /* german.mp3 */,
+				DAC006D82B73D0BA00A1D316 /* hindi.mp3 */,
+				DAC006D32B73D0BA00A1D316 /* instrumental.mp3 */,
+				DAC006D72B73D0BA00A1D316 /* italian.mp3 */,
+				DAC006D62B73D0BA00A1D316 /* japanese.mp3 */,
+				DAC006D52B73D0BA00A1D316 /* korean.mp3 */,
+				DAC006CD2B73D0BA00A1D316 /* portuguese.mp3 */,
+				DAC006CE2B73D0BA00A1D316 /* spanish.mp3 */,
+				DAC006D02B73D0BA00A1D316 /* swedish.mp3 */,
 				DAC006AA2B73850E00A1D316 /* Models */,
 				DAC006A72B7384A100A1D316 /* Views */,
 				DAC006982B73812E00A1D316 /* BachelorsExperimentApp.swift */,
@@ -96,6 +137,7 @@
 			children = (
 				DAC006AB2B73851C00A1D316 /* TestModel.swift */,
 				DAC006AD2B7396DA00A1D316 /* QuizManager.swift */,
+				DAC006B32B73C64900A1D316 /* AudioPlayerManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +202,19 @@
 			files = (
 				DAC006A02B73812F00A1D316 /* Preview Assets.xcassets in Resources */,
 				DAC0069D2B73812F00A1D316 /* Assets.xcassets in Resources */,
+				DAC006CB2B73C73600A1D316 /* english.mp3 in Resources */,
+				DAC006DF2B73D0BA00A1D316 /* instrumental.mp3 in Resources */,
+				DAC006DD2B73D0BA00A1D316 /* german.mp3 in Resources */,
+				DAC006E42B73D0BA00A1D316 /* hindi.mp3 in Resources */,
+				DAC006DE2B73D0BA00A1D316 /* french.mp3 in Resources */,
+				DAC006E32B73D0BA00A1D316 /* italian.mp3 in Resources */,
+				DAC006DC2B73D0BA00A1D316 /* swedish.mp3 in Resources */,
+				DAC006DB2B73D0BA00A1D316 /* english.mp3 in Resources */,
+				DAC006E22B73D0BA00A1D316 /* japanese.mp3 in Resources */,
+				DAC006D92B73D0BA00A1D316 /* portuguese.mp3 in Resources */,
+				DAC006E02B73D0BA00A1D316 /* chinese.mp3 in Resources */,
+				DAC006E12B73D0BA00A1D316 /* korean.mp3 in Resources */,
+				DAC006DA2B73D0BA00A1D316 /* spanish.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +230,7 @@
 				DAC0069B2B73812E00A1D316 /* WelcomeView.swift in Sources */,
 				DAC006B22B73B02600A1D316 /* SetupView.swift in Sources */,
 				DAC006AE2B7396DA00A1D316 /* QuizManager.swift in Sources */,
+				DAC006B42B73C64900A1D316 /* AudioPlayerManager.swift in Sources */,
 				DAC006992B73812E00A1D316 /* BachelorsExperimentApp.swift in Sources */,
 				DAC006AC2B73851C00A1D316 /* TestModel.swift in Sources */,
 			);
