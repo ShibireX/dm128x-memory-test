@@ -30,6 +30,7 @@
 		DAC006E22B73D0BA00A1D316 /* japanese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D62B73D0BA00A1D316 /* japanese.mp3 */; };
 		DAC006E32B73D0BA00A1D316 /* italian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D72B73D0BA00A1D316 /* italian.mp3 */; };
 		DAC006E42B73D0BA00A1D316 /* hindi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D82B73D0BA00A1D316 /* hindi.mp3 */; };
+		DAF0E26C2B76674B00508062 /* LanguageMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0E26B2B76674B00508062 /* LanguageMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		DAC006D62B73D0BA00A1D316 /* japanese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = japanese.mp3; path = ../../../../Downloads/japanese.mp3; sourceTree = "<group>"; };
 		DAC006D72B73D0BA00A1D316 /* italian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = italian.mp3; path = ../../../../Downloads/italian.mp3; sourceTree = "<group>"; };
 		DAC006D82B73D0BA00A1D316 /* hindi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hindi.mp3; path = ../../../../Downloads/hindi.mp3; sourceTree = "<group>"; };
+		DAF0E26B2B76674B00508062 /* LanguageMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				DAC006AB2B73851C00A1D316 /* TestModel.swift */,
 				DAC006AD2B7396DA00A1D316 /* QuizManager.swift */,
 				DAC006B32B73C64900A1D316 /* AudioPlayerManager.swift */,
+				DAF0E26B2B76674B00508062 /* LanguageMap.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				DAC0069B2B73812E00A1D316 /* WelcomeView.swift in Sources */,
 				DAC006B22B73B02600A1D316 /* SetupView.swift in Sources */,
 				DAC006AE2B7396DA00A1D316 /* QuizManager.swift in Sources */,
+				DAF0E26C2B76674B00508062 /* LanguageMap.swift in Sources */,
 				DAC006B42B73C64900A1D316 /* AudioPlayerManager.swift in Sources */,
 				DAC006992B73812E00A1D316 /* BachelorsExperimentApp.swift in Sources */,
 				DAC006AC2B73851C00A1D316 /* TestModel.swift in Sources */,
