@@ -14,63 +14,63 @@ struct LanguageMap {
                 ["English"],
                 ["German"],
                 ["Italian", "Spanish", "Portuguese", "French", "Hindi"],
-                ["Chinese", "Japanese", "Korean"]
+                ["Chinese (mandarin)", "Japanese", "Korean"]
             ],
             "English": [
                 ["None"],
                 ["Swedish", "German"],
                 ["French", "Italian", "Portuguese", "Hindi"],
-                ["Chinese", "Japanese", "Korean"]
+                ["Chinese (mandarin)", "Japanese", "Korean"]
             ],
             
             "German": [
                 ["Swedish"],
                 ["English"],
                 ["French", "Italian", "Portuguese", "Spanish", "Hindi"],
-                ["Chinese", "Japanese", "Korean"]
+                ["Chinese (mandarin)", "Japanese", "Korean"]
             ],
             
             "Italian": [
                 ["Spanish", "Portuguese"],
                 ["French"],
                 ["Swedish", "German", "English", "Hindi"],
-                ["Korean", "Japanese", "Chinese"]
+                ["Korean", "Japanese", "Chinese (mandarin)"]
             ],
             
             "French": [
                 ["None"],
                 ["Italian", "Portuguese", "Spanish"],
                 ["English", "Swedish", "Hindi", "German"],
-                ["Chinese", "Korean", "Japanese"]
+                ["Chinese (mandarin)", "Korean", "Japanese"]
             ],
             
             "Spanish": [
                 ["Italian", "Portuguese"],
                 ["French"],
                 ["Swedish", "German", "Hindi", "English"],
-                ["Chinese", "Japanese", "Korean"]
+                ["Chinese (mandarin)", "Japanese", "Korean"]
             ],
             "Portuguese": [
                 ["Spanish", "Italian"],
                 ["French"],
                 ["Swedish", "English", "German", "Hindi"],
-                ["Korean", "Japanese", "Chinese"]
+                ["Korean", "Japanese", "Chinese (mandarin)"]
             ],
             "Hindi": [
                 ["None"],
-                ["None", ],
+                ["None"],
                 ["Italian", "French", "Spanish", "Swedish", "Portuguese", "German", "English"],
-                ["Korean", "Japanese", "Chinese"]
+                ["Korean", "Japanese", "Chinese (mandarin)"]
             ],
             
             "Korean": [
                 ["None"],
                 ["None"],
-                ["Hindi", "Chinese"],
+                ["Hindi", "Chinese (mandarin)"],
                 ["Portuguese", "Italian", "Japanese", "French", "Spanish", "English", "Swedish", "German"]
             ],
             
-            "Chinese": [
+            "Chinese (mandarin)": [
                 ["None"],
                 ["None"],
                 ["Japanese", "Korean"],
@@ -80,7 +80,7 @@ struct LanguageMap {
             "Japanese": [
                 ["None"],
                 ["None"],
-                ["Chinese", "Hindi"],
+                ["Chinese (mandarin)", "Hindi"],
                 ["German", "Korean", "French", "Italian", "English", "Swedish", "Portuguese", "Spanish"]
             ],
             

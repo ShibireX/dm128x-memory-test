@@ -9,6 +9,10 @@ import Foundation
 import AVFoundation
 
 class AudioPlayerManager: ObservableObject {
+    
+    static var shared = AudioPlayerManager()
+    
+    @Published var languageArray: [String] = []
     var audioPlayer: AVAudioPlayer?
     
     func playMusic(file: String, type: String) {

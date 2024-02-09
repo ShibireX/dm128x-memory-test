@@ -10,6 +10,7 @@ import SwiftUI
 struct TestView: View {
     @StateObject var quizManager = QuizResultsManager()
     @StateObject var audioPlayer = AudioPlayerManager()
+    @State var languageArray: [String] = AudioPlayerManager.shared.languageArray
     @State var isPreview: Bool = false
     @FocusState var isTextFieldFocused: Bool
     
@@ -58,10 +59,12 @@ struct TestView: View {
         }
         .font(.system(size: 52, weight: .medium)).fontWidth(.expanded)
         .onAppear {
-            currentDisplayedNumber = TestModel.getRandomNumber(length: currentPhase+3)
+            print(languageArray)
+            currentDisplayedNumber = TestModel.getRandomNumber(length: currentPhase+4)
             self.startTimer()
+            languageArray.insert("instrumental", at: 0)
             if !isPreview {
-                audioPlayer.playMusic(file: "korean", type: "mp3")
+                audioPlayer.playMusic(file: languageArray[currentLanguage - 1].lowercased(), type: "mp3")
             }
         }
     }
@@ -86,7 +89,7 @@ struct TestView: View {
         if currentPhase == 5 {
             timer?.invalidate()
             quizManager.addQuizResult(languageNumber: currentLanguage)
-            if currentLanguage == 2 {
+            if currentLanguage == 5 {
                 audioPlayer.pauseMusic()
                 quizManager.writeResultsToFile()
                 showEndView = true
@@ -94,9 +97,16 @@ struct TestView: View {
                 audioPlayer.pauseMusic()
                 showPhaseEndedDisclaimer = true
             }
-        } else {
+        } else if currentPhase == 3 {
             currentPhase += 1
             currentDisplayedNumber = TestModel.getRandomNumber(length: currentPhase+3)
+            inputText = ""
+            isSubmitting = false
+            self.startTimer()
+            
+        } else {
+            currentPhase += 1
+            currentDisplayedNumber = TestModel.getRandomNumber(length: currentPhase == 5 ? currentPhase + 3 : currentPhase + 4)
             inputText = ""
             isSubmitting = false
             self.startTimer()
@@ -107,10 +117,10 @@ struct TestView: View {
         showPhaseEndedDisclaimer = false
         currentLanguage += 1
         currentPhase = 1
-        currentDisplayedNumber = TestModel.getRandomNumber(length: currentPhase+3)
+        currentDisplayedNumber = TestModel.getRandomNumber(length: currentPhase+4)
         inputText = ""
         isSubmitting = false
-        audioPlayer.playMusic(file: "english", type: "mp3")
+        audioPlayer.playMusic(file: languageArray[currentLanguage-1].lowercased(), type: "mp3")
         self.startTimer()
     }
     

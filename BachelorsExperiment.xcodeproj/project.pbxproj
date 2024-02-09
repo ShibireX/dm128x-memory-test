@@ -25,7 +25,7 @@
 		DAC006DD2B73D0BA00A1D316 /* german.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D12B73D0BA00A1D316 /* german.mp3 */; };
 		DAC006DE2B73D0BA00A1D316 /* french.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D22B73D0BA00A1D316 /* french.mp3 */; };
 		DAC006DF2B73D0BA00A1D316 /* instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D32B73D0BA00A1D316 /* instrumental.mp3 */; };
-		DAC006E02B73D0BA00A1D316 /* chinese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D42B73D0BA00A1D316 /* chinese.mp3 */; };
+		DAC006E02B73D0BA00A1D316 /* chinese (mandarin).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D42B73D0BA00A1D316 /* chinese (mandarin).mp3 */; };
 		DAC006E12B73D0BA00A1D316 /* korean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D52B73D0BA00A1D316 /* korean.mp3 */; };
 		DAC006E22B73D0BA00A1D316 /* japanese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D62B73D0BA00A1D316 /* japanese.mp3 */; };
 		DAC006E32B73D0BA00A1D316 /* italian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC006D72B73D0BA00A1D316 /* italian.mp3 */; };
@@ -54,7 +54,7 @@
 		DAC006D12B73D0BA00A1D316 /* german.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = german.mp3; path = ../../../../Downloads/german.mp3; sourceTree = "<group>"; };
 		DAC006D22B73D0BA00A1D316 /* french.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = french.mp3; path = ../../../../Downloads/french.mp3; sourceTree = "<group>"; };
 		DAC006D32B73D0BA00A1D316 /* instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = instrumental.mp3; path = ../../../../Downloads/instrumental.mp3; sourceTree = "<group>"; };
-		DAC006D42B73D0BA00A1D316 /* chinese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chinese.mp3; path = ../../../../Downloads/chinese.mp3; sourceTree = "<group>"; };
+		DAC006D42B73D0BA00A1D316 /* chinese (mandarin).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "chinese (mandarin).mp3"; path = "../../../../Downloads/chinese (mandarin).mp3"; sourceTree = "<group>"; };
 		DAC006D52B73D0BA00A1D316 /* korean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = korean.mp3; path = ../../../../Downloads/korean.mp3; sourceTree = "<group>"; };
 		DAC006D62B73D0BA00A1D316 /* japanese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = japanese.mp3; path = ../../../../Downloads/japanese.mp3; sourceTree = "<group>"; };
 		DAC006D72B73D0BA00A1D316 /* italian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = italian.mp3; path = ../../../../Downloads/italian.mp3; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		DAC006972B73812E00A1D316 /* BachelorsExperiment */ = {
 			isa = PBXGroup;
 			children = (
-				DAC006D42B73D0BA00A1D316 /* chinese.mp3 */,
+				DAC006D42B73D0BA00A1D316 /* chinese (mandarin).mp3 */,
 				DAC006BF2B73C73600A1D316 /* english.mp3 */,
 				DAC006CF2B73D0BA00A1D316 /* english.mp3 */,
 				DAC006D22B73D0BA00A1D316 /* french.mp3 */,
@@ -215,7 +215,7 @@
 				DAC006DB2B73D0BA00A1D316 /* english.mp3 in Resources */,
 				DAC006E22B73D0BA00A1D316 /* japanese.mp3 in Resources */,
 				DAC006D92B73D0BA00A1D316 /* portuguese.mp3 in Resources */,
-				DAC006E02B73D0BA00A1D316 /* chinese.mp3 in Resources */,
+				DAC006E02B73D0BA00A1D316 /* chinese (mandarin).mp3 in Resources */,
 				DAC006E12B73D0BA00A1D316 /* korean.mp3 in Resources */,
 				DAC006DA2B73D0BA00A1D316 /* spanish.mp3 in Resources */,
 			);
