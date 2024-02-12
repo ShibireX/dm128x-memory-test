@@ -10,6 +10,8 @@ import Foundation
 struct QuizPhaseResult: Codable {
     var phaseNumber: Int
     var score: Int
+    var guess: String
+    var real: String
 }
 
 struct QuizResult: Codable {

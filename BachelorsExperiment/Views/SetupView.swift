@@ -17,7 +17,7 @@ struct SetupView: View {
     var body: some View {
         if isSettingUp {
             VStack {
-                Text("Please fill out your language fluency levels for the following languages").font(.system(size: 32)).multilineTextAlignment(.center).padding()
+                Text("Please fill out your language fluency levels for the following languages").font(.system(size: 32)).multilineTextAlignment(.center).padding(.horizontal, 50).padding(.top, 35)
                 
                 ForEach(languages, id:\.self) { language in
                     HStack {
@@ -34,11 +34,13 @@ struct SetupView: View {
                     }
                     .padding(.horizontal, 200)
                 }
+                Text("By submitting, you agree to be a part of our study and give consent for us using your anonymous result data in our analysis and research report").multilineTextAlignment(.center).padding(.top)
                 Button("Submit") {
                     AudioPlayerManager.shared.languageArray = calculateLanguageSequence()
                     isSettingUp = false
                 }
-                .font(.system(size: 32)).fontWidth(.expanded).padding(.vertical, 50)
+                .font(.system(size: 32)).fontWidth(.expanded)
+                .padding(.bottom, 50).padding(.top, 20)
             }
         } else {
             WelcomeView()

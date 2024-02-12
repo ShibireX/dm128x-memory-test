@@ -85,7 +85,10 @@ struct TestView: View {
     }
     
     func submitAnswer() {
-        quizManager.addPhaseResult(QuizPhaseResult(phaseNumber: currentPhase, score: TestModel.isCorrectAnswer(guessValue: inputText, realValue: String(currentDisplayedNumber!)) ? 1 : 0))
+        quizManager.addPhaseResult(QuizPhaseResult(phaseNumber: currentPhase,
+                                                   score: TestModel.isCorrectAnswer(guessValue: inputText, realValue: String(currentDisplayedNumber!)) ? 1 : 0,
+                                                   guess: inputText,
+                                                   real: String(currentDisplayedNumber!)))
         if currentPhase == 5 {
             timer?.invalidate()
             quizManager.addQuizResult(languageNumber: currentLanguage)
